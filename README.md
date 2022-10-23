@@ -13,7 +13,7 @@
 * cmake .
 * make
 * komutlarını çalıştırıyoruz..
-* uxplay adında binay bir dosya oluşacaktır.
+* uxplay adında binary bir dosya oluşacaktır.
 * cp uxplay debmake/ komutunu veriyoruz.
 * cd debmake komutuyladebmake klasörüne giriyoruz.
 * sudo dpkg-buildpackage -us -uc komutuyla bir üzt klasöre deb paketi oluşturacaktır.

@@ -5,5 +5,5 @@ Icon=uxplay
 Type=Application
 Exec=sh -c "pkill uxplay;nohup /usr/bin/uxplay&;"
 Name=uxplay
-GenericName=uxplay
+GenericName=Ekran Yansıtıcı(Ios)
 Categories=Qt;Utility;
