@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=true
+Icon=uxplay
+Type=Application
+Exec=sh -c "pkill uxplay;nohup /usr/bin/uxplay&;"
+Name=uxplay
+GenericName=uxplay
+Categories=Qt;Utility;

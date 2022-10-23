@@ -1,3 +1,26 @@
+
+### linux bir bilgisayara ios ekranı aktarma projesidir.
+* sudo apt install libx11-dev
+* sudo apt install 	libssl-dev
+* sudo apt install 	libplist-dev
+* sudo apt install 	libavahi-compat-libdnssd-dev
+* sudo apt install 	libgstreamer1.0-dev
+* sudo apt install 	libgstreamer-plugins-base1.0-dev
+* sudo apt install 	gstreamer1.0-vaapi
+* sudo apt install 	gstreamer1.0-libav
+* sudo apt install cmake
+* bu işlemleri yaptıktan sonra;
+* cmake .
+* make
+* komutlarını çalıştırıyoruz..
+* uxplay adında binay bir dosya oluşacaktır.
+* cp uxplay debmake/ komutunu veriyoruz.
+* cd debmake komutuyladebmake klasörüne giriyoruz.
+* sudo dpkg-buildpackage -us -uc komutuyla bir üzt klasöre deb paketi oluşturacaktır.
+* deb paketini kurarak ios sistemini bilgisayarınıza paylaşılan ekranlar bölümünden yansıtabilirsiniz..
+* bilgisayarın ve ipad, iphone cihazımız aynı ağda olmalıdır...
+* son işlem olarak terminali açıyoruz ve uxplay yazmamız yeterli..
+
 # UxPlay 1.57:  AirPlay-Mirror and AirPlay-Audio server for Linux, macOS, and Unix (now also runs on Windows).
 
 ### Now developed at the GitHub site [https://github.com/FDH2/UxPlay](https://github.com/FDH2/UxPlay) (where all user issues should be posted).
